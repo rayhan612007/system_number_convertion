@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <title>Decimal to Binary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="text-align: center">
+        <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 150%;padding: 15px;
+        color: rgb(27 0 255);background-color: rgb(255 255 255);
+        text-align: center;display: inline-block;" id ="animation_word" >NUMBER SYSTEM CONVERTION </h1>
+    </div>
+    <div class="from_bg">
+        <div class="From_p">
+            <div class="From_50">
+                <label for="from" class="to" ><strong>From</strong></label><br>
+                <select name="typeofnumber" id="from" class="from">
+                    <option value="decimal" selected>Decimal</option>
+                    <option value="binary">Binary</option>
+                    <option value="octal">Octal</option>
+                    <option value="hex">Hexa Decimal</option>
+                </select>
+              </div>
+              <div class="From_50_1">
+                <label for="to" class="to"> <strong>To </strong></label><br>
+                <select name="typeofnumber" id="to" class="from">
+                    <option value="decimal">Decimal</option>
+                    <option value="binary" selected>Binary</option>
+                    <option value="octal">Octal</option>
+                    <option value="hex">Hexa Decimal</option>
+                </select>
+              </div>
+        </div><br>
+        <div class="input_text">
+            <textarea name="Input" class="iNput" id="input_number" rows="5" placeholder="Enter your number :"></textarea><br>
+            <button onclick="reset_function()" type="reset" class="btn" id="reset" style="margin-right: 13px;">Reset</button>
+            <button onclick="convert_function()" class="btn" id="Convert"> Convert </button>
+            <textarea : disabled name="Output" id= "output_number" class="Output" rows="5"></textarea>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

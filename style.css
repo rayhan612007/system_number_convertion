@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    border-radius: 7px ;
+}
+body{
+    background: #bbbbbb;
+}
+.from_bg{
+    background-color:#0206eb;
+    height: 450px;
+    width: 355px;
+    position: relative;
+    top: 6%;
+    left: 37%;
+}
+.From_p{
+    display: flex;
+}
+.From_50{
+    width: 100%;
+    
+}
+.From_50_1{
+    width: 100%;
+}
+.From_p{
+    padding: 10px 10px 0px 20px;
+}
+.from{
+    width: 90%;
+    height: 40px;
+}
+.to{
+    font-size: 20px;
+    margin-bottom: -10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-left: -15px;
+}
+.input_text{
+    padding: 10px 10px 0px 20px;
+}
+.iNput{
+    width: 95%;
+    font-size: 15px;
+    resize: none;
+    padding: 6px 0 0 10px;
+    transition: all 0.3s;
+}
+.Output{
+    width: 95%;
+    font-size: 15px;
+    display: block;
+    resize: vertical;
+    color: black;
+    background-color: #fff;
+}
+.btn{
+    height: 33px;
+    width: 45%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: rgba(255, 255, 255, 0);    
+}
+#reset:hover{
+    background: #ff0000;
+    color: #fff;
+}
+#convert:hover{
+    background-color: green;
+    color: #fff;
+}
+#input_number:focus{
+    outline: transparent;
+    box-shadow: 0px 3px 20px 6px #00d6c8;;
+}
